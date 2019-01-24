@@ -96,6 +96,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Custom aliases for conve
+
 alias pacs="sudo pacman -S"
 alias l="ls -a"
 alias pacup="sudo pacman -Suy"
+alias i3config='nano ~/.config/i3/config'
