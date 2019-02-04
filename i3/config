@@ -211,6 +211,7 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+shift+f exec firefox
 bindsym $mod+shift+x exec i3lock
 bindsym $mod+z exec termite -e ranger
+bindsym $mod+shift+i exec inkscape
 
 # Manage display on startup
 exec_always feh --bg-scale ~/.config/wallpaper

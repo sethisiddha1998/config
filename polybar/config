@@ -23,7 +23,7 @@ bg = #1F1F1F
 fg = #FFFFFF
 fg-alt = #A9ABB0
 
-acolor = #1e88e5
+acolor = #fd9891
 curgent = #e53935
 coccupied = #43a047
 
@@ -168,8 +168,8 @@ type = custom/text
 content = 
 content-padding = 1
 content-foreground = ${color.fg-alt}
-click-left = xfce4-settings &
-click-right = xfce4-settings &
+click-left = lxappearance &
+click-right = nm-connection-editor &
 
 ;==========================================================
 
