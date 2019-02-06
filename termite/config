@@ -44,33 +44,49 @@ scrollback_lines = 10000
 #cursor = #dcdccc
 #cursor_foreground = #dcdccc
 
-foreground = #fffafc
+foreground = #320303
 #foreground_bold = #ffffff
 #background = #3f3f3f
 
 # 20% background transparency (requires a compositor)
-background = rgba(18, 18, 17, 0.9)
+background = rgba(252, 220, 224, 0.4)
 
 # If unset, will reverse foreground and background
-highlight = #2f2f2f
+# highlight = #2f2f2f
 
 # Colors from color0 to color254 can be set
-color0 = #2d2d2d
-color1 = #a54242
-color2 = #de935f
-color3 = #75507b
-color4 = #5f819d
-color5 = #0f96a0
-color6 = #5e8d87
-color7 = #707880
-color8 = #373b41
-color9 = #cc6666
-color10 = #f0c674
-color11 = #7746b3
-color12 = #81a2be
-color13 = #60b4bf
-color14 = #8abeb7
-color15 = #c5c8c6
+
+# black
+color0  = #000000
+color8  = #4d4d4d
+
+# red
+color1  = #cc2625
+color9  = #8d5d5c
+
+# green
+color2  = #8ecf85
+color10 = #674d51
+
+# yellow
+color3  = #f3f14d
+color11 = #757565
+
+# blue
+color4  = #6772b6
+color12 = #3e4152
+
+# magenta
+color5  = #e169e6
+color13 = #4e254e
+
+# cyan
+color6  = #adc3c3
+color14 = #134646
+
+# white
+color7  = #5a4949
+color15 = #7e7e7e
 
 [hints]
 font = Liberation Mono 11

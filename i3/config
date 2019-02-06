@@ -34,7 +34,7 @@ bindsym $mod+Return exec termite
 
 # Set gaps in between windows
 gaps inner 20
-gaps outer 15
+gaps outer 0
 
 # kill focused window
 bindsym $mod+q kill
@@ -213,7 +213,8 @@ bindsym $mod+shift+x exec i3lock
 bindsym $mod+z exec termite -e ranger
 bindsym $mod+shift+i exec inkscape
 
-# Manage display on startup
+# Manage x on startup
 exec_always feh --bg-scale ~/.config/wallpaper
 exec compton
 exec_always ~/.config/polybar/launch.sh
+exec xset r rate 275 60
