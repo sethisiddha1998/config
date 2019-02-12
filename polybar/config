@@ -19,9 +19,9 @@ trans = #00000000
 white = #FFFFFF
 black = #000000
 
-bg = #1F1F1F
-fg = #FFFFFF
-fg-alt = #A9ABB0
+bg = #fff0ef
+fg = #1F1F1F
+fg-alt = #47494d
 
 acolor = #fd9891
 curgent = #e53935
@@ -53,19 +53,19 @@ blue-gray = #546e7a
 
 [bar/main]
 monitor = eDP1
-width = 100%
+width = 100%%
 height = 35
-offset-x = 5%
-offset-y = 2%
+offset-x = 10%
+offset-y = 10%
 bottom = true
-fixed-center = false
+fixed-center = true
 line-size = 2
 
 background = ${color.bg}
 foreground = ${color.fg}
 
 border-size = 3
-border-color = ${color.bg}
+border-color =${color.bg}
 
 module-margin-left = 1
 module-margin-right = 1
